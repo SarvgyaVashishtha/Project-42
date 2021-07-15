@@ -7,7 +7,7 @@ angleMode(DEGREES);
 }
 
 function draw() {
-  background("yellow");
+  background(random(0, 255), random(0, 255), random(0, 255));
 
 translate(200,200);
 rotate(-90);
@@ -24,7 +24,7 @@ push();
 rotate(sangle);
 stroke(random(0, 255), random(0, 255), random(0, 255));
 strokeWeight(7);
-line(0,0,100,0);
+line(0,0,105,0);
 pop();
 
 push();
